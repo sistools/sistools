@@ -125,10 +125,16 @@ The primary choice for installation is by use of **CMake**.
 
     ```bash
     $ cd ~
-    $ echo "abc" | rstrip
-    abc
-    $ echo "  def" | rstrip
-    def
+    $ echo -e "abc\n  def\nghi  \njkl\t" | sed -e 's/$/*/'
+    abc*
+      def*
+    ghi  *
+    jkl     *
+    $ echo -e "abc\n  def\nghi  \njkl\t" | rstrip | sed -e 's/$/*/'
+    abc*
+      def*
+    ghi*
+    jkl*
     ```
 
 

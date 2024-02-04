@@ -1,5 +1,7 @@
 # rstrip
-**rstrip** is a small, standalone utility program that removes trailing whitespace from lines in its input.
+
+Strips trailing whitespace from all input lines
+
 
 ## Table of Contents
 
@@ -11,22 +13,36 @@
 
 ## Introduction
 
-T.B.C.
+**rstrip** is a small, standalone utility program that removes trailing whitespace from lines in its input.
 
 
 ## Installation
 
-T.B.C.
+Detailed instructions - via **CMake**, via bundling, via custom makefile
+parameters - are provided in the accompanying [INSTALL.md](./INSTALL.md)
+file.
 
 
 ## Components
 
-T.B.C.
+The project creates a single executable program, **rstrip**.
 
 
 ## Examples
 
-T.B.C.
+```bash
+$ cd ~
+$ echo -e "abc\n  def\nghi  \njkl\t" | sed -e 's/$/*/'
+abc*
+  def*
+ghi  *
+jkl     *
+$ echo -e "abc\n  def\nghi  \njkl\t" | rstrip | sed -e 's/$/*/'
+abc*
+  def*
+ghi*
+jkl*
+```
 
 
 ## Project Information
