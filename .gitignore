@@ -1,0 +1,155 @@
+
+# directories (by name)
+
+/.svn/
+/.vs/
+
+/_build/
+/_internal/
+
+/bin/
+/doc/
+/include/
+/lib/
+/node_modules/
+
+/include/b64/
+/include/shwild/
+/include/xcontract/
+/include/xcover/
+/include/xtests/
+
+/src/b64/
+/src/shwild/
+/src/xcontract/
+/src/xcover/
+/src/xtests/
+
+Debug Multithreaded DLL/
+Debug Multithreaded Dll/
+Debug Multithreaded pseudoUNIX/
+Debug Multithreaded pseudoUnix/
+Debug Multithreaded/
+Debug/
+DebugDLLUNIX/
+DebugDll/
+DebugMTDLL/
+DebugMt/
+DebugNox/
+DebugUNIX/
+DebugUnix/
+Release Multithreaded DLL/
+Release Multithreaded Dll/
+Release Multithreaded pseudoUNIX/
+Release Multithreaded pseudoUnix/
+Release Multithreaded/
+Release/
+ReleaseDLLUNIX/
+ReleaseDll/
+ReleaseMTDLL/
+ReleaseMt/
+ReleaseNox/
+ReleaseUnix/
+UDebug/
+UDebugMt/
+URelease/
+UReleaseMt/
+Unicode Debug Multithreaded DLL/
+Unicode Debug Multithreaded Dll/
+Unicode Debug Multithreaded/
+Unicode Debug/
+Unicode Release Multithreaded DLL/
+Unicode Release Multithreaded Dll/
+Unicode Release Multithreaded/
+Unicode Release/
+
+Win32/
+ipch/
+x64/
+
+
+# directories (by pattern)
+
+
+# files (by name)
+
+.DS_Store
+.ruby-version
+.svnignore
+.svnignore-at-root
+.update_deps
+
+list_changes.cmd
+logging-bailout.txt
+prepare.cmd
+sh.exe.stackdump
+update_deps.cmd
+
+build/makefile.tmpl
+build/makefile.tools.xml
+
+clasp.a
+libclasp.a
+librstrip.a
+rstrip
+rstrip_test
+
+
+# files (by pattern)
+
+RCa0*
+RCb0*
+
+*~
+*.???_obj
+*.a
+*.app
+*.aps
+*.b64
+*.bak
+*.chm
+*.class
+*.csproj*user
+*.d
+*.dll
+*.dylib
+*.exe
+*.gch
+*.gem
+*.idb
+*.ilk
+*.iobj
+*.ipch
+*.ipdb
+*.la
+*.lai
+*.lib
+*.lo
+*.log
+*.ncb
+*.o
+*.obj
+*.opensdf
+*.opt
+*.org
+*.out
+*.pch
+*.pdb
+*.pyc
+*.rar
+*.res
+*.sbr
+*.scc
+*.sdf
+*.slo
+*.so
+*.suo
+*.swp
+*.tlog
+*.tmp
+*.unsuccessfulbuild
+*.vcproj*user
+*.vcxproj*user
+*.xcuserstate
+*.zip
+
